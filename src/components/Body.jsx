@@ -48,7 +48,7 @@ function Body() {
       {/* Display content after loading */}
       {displayContent && !isLoading && (
         <div style={{marginTop:'100px'}}>
-          <p style={{fontSize:'20px'}}>You are thinking about <span style={{color:'red', fontWeight:'600'}}>{displayContent}</span></p>
+          <p style={{fontSize:'20px'}}>You are thinking about <span style={{color:'red', fontWeight:'600'}}>{displayContent}</span>.</p>
         </div>
       )}
     </div>
