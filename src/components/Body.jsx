@@ -49,6 +49,7 @@ function Body() {
       {displayContent && !isLoading && (
         <div style={{marginTop:'100px'}}>
           <p style={{fontSize:'20px'}}>You are thinking about <span style={{color:'red', fontWeight:'600'}}>{displayContent}</span>.</p>
+          <img style={{width:'90%', padding:'10px', borderRadius:'25px'}} src="/images/logo.jpg" alt="" />
         </div>
       )}
     </div>
